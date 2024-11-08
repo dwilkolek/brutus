@@ -1,0 +1,21 @@
+version: "3.3"
+
+services:
+  snowflake-monitor:
+    image: snowflake-monitor
+    restart: always
+    healthcheck:
+      disable: true
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "3000:3000"
+  uptime-kuma:
+    image: elestio/uptime-kuma:2.0.0-beta.0
+    restart: always
+    healthcheck:
+      disable: true
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "3001:3001"

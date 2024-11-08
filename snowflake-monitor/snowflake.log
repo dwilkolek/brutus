@@ -1,0 +1,506 @@
+{"level":"INFO","message":"[9:04:28.425 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:04:28.435 PM]: Creating Connection[id: ec6be3d1-1e9d-4535-b89c-4ce323a585d6] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: undefined, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:04:28.435 PM]: Connection[id: ec6be3d1-1e9d-4535-b89c-4ce323a585d6] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:04:28.435 PM]: Connection[id: ec6be3d1-1e9d-4535-b89c-4ce323a585d6] - connection object created successfully."}
+{"level":"INFO","message":"[9:04:28.435 PM]: Connection[id: ec6be3d1-1e9d-4535-b89c-4ce323a585d6] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:04:28.436 PM]: Connection[id: ec6be3d1-1e9d-4535-b89c-4ce323a585d6] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:04:28.436 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:04:28.438 PM]: No client config detected."}
+{"level":"INFO","message":"[9:04:28.438 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:04:28.438 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:04:28.442 PM]: Connection[id: ec6be3d1-1e9d-4535-b89c-4ce323a585d6] - connected successfully after 6.667582999999979 milliseconds"}
+{"level":"INFO","message":"[9:06:31.427 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:06:31.435 PM]: Creating Connection[id: 54caec3e-ff8b-4216-b666-7bc83a8b9d7b] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: undefined, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:06:31.435 PM]: Connection[id: 54caec3e-ff8b-4216-b666-7bc83a8b9d7b] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:06:31.435 PM]: Connection[id: 54caec3e-ff8b-4216-b666-7bc83a8b9d7b] - connection object created successfully."}
+{"level":"INFO","message":"[9:06:31.435 PM]: Connection[id: 54caec3e-ff8b-4216-b666-7bc83a8b9d7b] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:06:31.436 PM]: Connection[id: 54caec3e-ff8b-4216-b666-7bc83a8b9d7b] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:06:31.436 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:06:31.439 PM]: No client config detected."}
+{"level":"INFO","message":"[9:06:31.439 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:06:31.440 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:06:31.441 PM]: Connection[id: 54caec3e-ff8b-4216-b666-7bc83a8b9d7b] - connected successfully after 5.6025000000000205 milliseconds"}
+{"level":"INFO","message":"[9:06:50.885 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:06:50.892 PM]: Creating Connection[id: faaa362e-0e16-4894-bcd9-55327278c31d] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: undefined, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:06:50.893 PM]: Connection[id: faaa362e-0e16-4894-bcd9-55327278c31d] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:06:50.893 PM]: Connection[id: faaa362e-0e16-4894-bcd9-55327278c31d] - connection object created successfully."}
+{"level":"INFO","message":"[9:06:50.893 PM]: Connection[id: faaa362e-0e16-4894-bcd9-55327278c31d] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:06:50.894 PM]: Connection[id: faaa362e-0e16-4894-bcd9-55327278c31d] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:06:50.894 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:06:50.897 PM]: No client config detected."}
+{"level":"INFO","message":"[9:06:50.897 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:06:50.897 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:06:50.899 PM]: Connection[id: faaa362e-0e16-4894-bcd9-55327278c31d] - connected successfully after 5.73683299999999 milliseconds"}
+{"level":"INFO","message":"[9:07:23.738 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:07:23.747 PM]: Creating Connection[id: 656b56e9-4dac-41f0-a3e9-b3be6b17b1d1] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: undefined, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:07:23.748 PM]: Connection[id: 656b56e9-4dac-41f0-a3e9-b3be6b17b1d1] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:07:23.748 PM]: Connection[id: 656b56e9-4dac-41f0-a3e9-b3be6b17b1d1] - connection object created successfully."}
+{"level":"INFO","message":"[9:07:23.748 PM]: Connection[id: 656b56e9-4dac-41f0-a3e9-b3be6b17b1d1] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:07:23.749 PM]: Connection[id: 656b56e9-4dac-41f0-a3e9-b3be6b17b1d1] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:07:23.749 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:07:23.752 PM]: No client config detected."}
+{"level":"INFO","message":"[9:07:23.752 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:07:23.753 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:07:23.754 PM]: Connection[id: 656b56e9-4dac-41f0-a3e9-b3be6b17b1d1] - connected successfully after 6.218124999999986 milliseconds"}
+{"level":"INFO","message":"[9:07:44.805 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:07:44.815 PM]: Creating Connection[id: c8940bb6-402c-4059-a2d0-64547e092b5e] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: undefined, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:07:44.815 PM]: Connection[id: c8940bb6-402c-4059-a2d0-64547e092b5e] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:07:44.815 PM]: Connection[id: c8940bb6-402c-4059-a2d0-64547e092b5e] - connection object created successfully."}
+{"level":"INFO","message":"[9:07:44.815 PM]: Connection[id: c8940bb6-402c-4059-a2d0-64547e092b5e] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:07:44.816 PM]: Connection[id: c8940bb6-402c-4059-a2d0-64547e092b5e] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:07:44.816 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:07:44.818 PM]: No client config detected."}
+{"level":"INFO","message":"[9:07:44.818 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:07:44.818 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:07:44.820 PM]: Connection[id: c8940bb6-402c-4059-a2d0-64547e092b5e] - connected successfully after 4.6682500000000005 milliseconds"}
+{"level":"INFO","message":"[9:10:41.731 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:10:41.740 PM]: Creating Connection[id: 247a38df-31af-4539-8431-2d333c52cd7a] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: undefined, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:10:41.740 PM]: Connection[id: 247a38df-31af-4539-8431-2d333c52cd7a] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:10:41.740 PM]: Connection[id: 247a38df-31af-4539-8431-2d333c52cd7a] - connection object created successfully."}
+{"level":"INFO","message":"[9:10:41.740 PM]: Connection[id: 247a38df-31af-4539-8431-2d333c52cd7a] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:10:41.741 PM]: Connection[id: 247a38df-31af-4539-8431-2d333c52cd7a] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:10:41.741 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:10:41.743 PM]: No client config detected."}
+{"level":"INFO","message":"[9:10:41.743 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:10:41.743 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:10:41.745 PM]: Connection[id: 247a38df-31af-4539-8431-2d333c52cd7a] - connected successfully after 4.533500000000004 milliseconds"}
+{"level":"INFO","message":"[9:11:02.731 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:11:02.738 PM]: Creating Connection[id: 7b66bd81-df8a-4d78-8920-781b85eff0ee] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: undefined, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:11:02.738 PM]: Connection[id: 7b66bd81-df8a-4d78-8920-781b85eff0ee] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:11:02.738 PM]: Connection[id: 7b66bd81-df8a-4d78-8920-781b85eff0ee] - connection object created successfully."}
+{"level":"INFO","message":"[9:11:02.739 PM]: Connection[id: 7b66bd81-df8a-4d78-8920-781b85eff0ee] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:11:02.739 PM]: Connection[id: 7b66bd81-df8a-4d78-8920-781b85eff0ee] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:11:02.739 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:11:02.741 PM]: No client config detected."}
+{"level":"INFO","message":"[9:11:02.741 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:11:02.742 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:11:02.743 PM]: Connection[id: 7b66bd81-df8a-4d78-8920-781b85eff0ee] - connected successfully after 4.255125000000021 milliseconds"}
+{"level":"INFO","message":"[9:11:20.802 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:11:20.810 PM]: Creating Connection[id: d4e388d0-ab35-46f8-8c54-de81ef934088] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: undefined, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:11:20.810 PM]: Connection[id: d4e388d0-ab35-46f8-8c54-de81ef934088] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:11:20.810 PM]: Connection[id: d4e388d0-ab35-46f8-8c54-de81ef934088] - connection object created successfully."}
+{"level":"INFO","message":"[9:11:20.811 PM]: Connection[id: d4e388d0-ab35-46f8-8c54-de81ef934088] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:11:20.811 PM]: Connection[id: d4e388d0-ab35-46f8-8c54-de81ef934088] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:11:20.811 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:11:20.813 PM]: No client config detected."}
+{"level":"INFO","message":"[9:11:20.813 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:11:20.814 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:11:20.815 PM]: Connection[id: d4e388d0-ab35-46f8-8c54-de81ef934088] - connected successfully after 4.87337500000001 milliseconds"}
+{"level":"INFO","message":"[9:11:34.482 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:11:34.489 PM]: Creating Connection[id: ddc5f701-e109-463b-ab2b-2b57658d3150] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:11:34.489 PM]: Connection[id: ddc5f701-e109-463b-ab2b-2b57658d3150] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:11:34.490 PM]: Connection[id: ddc5f701-e109-463b-ab2b-2b57658d3150] - connection object created successfully."}
+{"level":"INFO","message":"[9:11:34.490 PM]: Connection[id: ddc5f701-e109-463b-ab2b-2b57658d3150] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:11:34.490 PM]: Connection[id: ddc5f701-e109-463b-ab2b-2b57658d3150] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:11:34.490 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:11:34.492 PM]: No client config detected."}
+{"level":"INFO","message":"[9:11:34.492 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:11:34.493 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:11:34.494 PM]: Connection[id: ddc5f701-e109-463b-ab2b-2b57658d3150] - connected successfully after 4.127166999999986 milliseconds"}
+{"level":"INFO","message":"[9:13:02.239 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:13:02.247 PM]: Creating Connection[id: 0709b0b6-29bb-4763-9d48-4285ecc69050] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:13:02.248 PM]: Connection[id: 0709b0b6-29bb-4763-9d48-4285ecc69050] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:13:02.248 PM]: Connection[id: 0709b0b6-29bb-4763-9d48-4285ecc69050] - connection object created successfully."}
+{"level":"INFO","message":"[9:13:02.248 PM]: Connection[id: 0709b0b6-29bb-4763-9d48-4285ecc69050] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:13:02.248 PM]: Connection[id: 0709b0b6-29bb-4763-9d48-4285ecc69050] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:13:02.249 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:13:02.250 PM]: No client config detected."}
+{"level":"INFO","message":"[9:13:02.250 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:13:02.251 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:13:02.252 PM]: Connection[id: 0709b0b6-29bb-4763-9d48-4285ecc69050] - connected successfully after 4.366709000000014 milliseconds"}
+{"level":"INFO","message":"[9:13:06.770 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:13:06.775 PM]: Creating Connection[id: f091b419-131f-42b7-bd35-14780833247c] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:13:06.775 PM]: Connection[id: f091b419-131f-42b7-bd35-14780833247c] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:13:06.776 PM]: Connection[id: f091b419-131f-42b7-bd35-14780833247c] - connection object created successfully."}
+{"level":"INFO","message":"[9:13:06.776 PM]: Connection[id: f091b419-131f-42b7-bd35-14780833247c] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:13:06.776 PM]: Connection[id: f091b419-131f-42b7-bd35-14780833247c] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:13:06.776 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:13:06.778 PM]: No client config detected."}
+{"level":"INFO","message":"[9:13:06.778 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:13:06.779 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:13:06.780 PM]: Connection[id: f091b419-131f-42b7-bd35-14780833247c] - connected successfully after 4.331541999999985 milliseconds"}
+{"level":"INFO","message":"[9:36:01.033 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:36:01.042 PM]: Creating Connection[id: 3e964af9-18df-4c70-901b-c60e331aa942] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:36:01.042 PM]: Connection[id: 3e964af9-18df-4c70-901b-c60e331aa942] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:36:01.042 PM]: Connection[id: 3e964af9-18df-4c70-901b-c60e331aa942] - connection object created successfully."}
+{"level":"INFO","message":"[9:36:01.042 PM]: Connection[id: 3e964af9-18df-4c70-901b-c60e331aa942] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:36:01.046 PM]: Connection[id: 3e964af9-18df-4c70-901b-c60e331aa942] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:36:01.046 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:36:01.051 PM]: No client config detected."}
+{"level":"INFO","message":"[9:36:01.051 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:36:01.051 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:36:01.053 PM]: Connection[id: 3e964af9-18df-4c70-901b-c60e331aa942] - connected successfully after 10.108208000000047 milliseconds"}
+{"level":"INFO","message":"[9:36:47.376 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:36:47.381 PM]: Creating Connection[id: ebf95ea3-7f2d-4d25-a998-42a39c373582] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:36:47.382 PM]: Connection[id: ebf95ea3-7f2d-4d25-a998-42a39c373582] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:36:47.382 PM]: Connection[id: ebf95ea3-7f2d-4d25-a998-42a39c373582] - connection object created successfully."}
+{"level":"INFO","message":"[9:36:47.382 PM]: Connection[id: ebf95ea3-7f2d-4d25-a998-42a39c373582] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:36:47.384 PM]: Connection[id: ebf95ea3-7f2d-4d25-a998-42a39c373582] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:36:47.384 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:36:47.387 PM]: No client config detected."}
+{"level":"INFO","message":"[9:36:47.387 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:36:47.387 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:36:47.389 PM]: Connection[id: ebf95ea3-7f2d-4d25-a998-42a39c373582] - connected successfully after 6.564375000000041 milliseconds"}
+{"level":"INFO","message":"[9:37:43.026 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:37:43.032 PM]: Creating Connection[id: ec7ed8d3-af56-432d-9063-afc4da0f7881] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:37:43.032 PM]: Connection[id: ec7ed8d3-af56-432d-9063-afc4da0f7881] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:37:43.033 PM]: Connection[id: ec7ed8d3-af56-432d-9063-afc4da0f7881] - connection object created successfully."}
+{"level":"INFO","message":"[9:37:43.033 PM]: Connection[id: ec7ed8d3-af56-432d-9063-afc4da0f7881] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:37:43.034 PM]: Connection[id: ec7ed8d3-af56-432d-9063-afc4da0f7881] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:37:43.035 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:37:43.037 PM]: No client config detected."}
+{"level":"INFO","message":"[9:37:43.038 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:37:43.038 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:37:43.039 PM]: Connection[id: ec7ed8d3-af56-432d-9063-afc4da0f7881] - connected successfully after 6.4567499999999995 milliseconds"}
+{"level":"INFO","message":"[9:38:06.084 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:38:06.090 PM]: Creating Connection[id: 058e747f-9bb4-4ed1-9fef-7fc52d8c3c76] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:38:06.090 PM]: Connection[id: 058e747f-9bb4-4ed1-9fef-7fc52d8c3c76] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:38:06.091 PM]: Connection[id: 058e747f-9bb4-4ed1-9fef-7fc52d8c3c76] - connection object created successfully."}
+{"level":"INFO","message":"[9:38:06.091 PM]: Connection[id: 058e747f-9bb4-4ed1-9fef-7fc52d8c3c76] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:38:06.092 PM]: Connection[id: 058e747f-9bb4-4ed1-9fef-7fc52d8c3c76] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:38:06.093 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:38:06.095 PM]: No client config detected."}
+{"level":"INFO","message":"[9:38:06.096 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:38:06.096 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:38:06.097 PM]: Connection[id: 058e747f-9bb4-4ed1-9fef-7fc52d8c3c76] - connected successfully after 6.531082999999967 milliseconds"}
+{"level":"INFO","message":"[9:38:38.228 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:38:38.235 PM]: Creating Connection[id: 248f534a-2a12-4550-b2c3-0c79cd817c77] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:38:38.235 PM]: Connection[id: 248f534a-2a12-4550-b2c3-0c79cd817c77] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:38:38.235 PM]: Connection[id: 248f534a-2a12-4550-b2c3-0c79cd817c77] - connection object created successfully."}
+{"level":"INFO","message":"[9:38:38.236 PM]: Connection[id: 248f534a-2a12-4550-b2c3-0c79cd817c77] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:38:38.237 PM]: Connection[id: 248f534a-2a12-4550-b2c3-0c79cd817c77] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:38:38.237 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:38:38.241 PM]: No client config detected."}
+{"level":"INFO","message":"[9:38:38.241 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:38:38.241 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:38:38.243 PM]: Connection[id: 248f534a-2a12-4550-b2c3-0c79cd817c77] - connected successfully after 7.001708000000008 milliseconds"}
+{"level":"INFO","message":"[9:38:51.198 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:38:51.204 PM]: Creating Connection[id: e8cfdd30-8054-4083-867f-f888b0d36ff8] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:38:51.204 PM]: Connection[id: e8cfdd30-8054-4083-867f-f888b0d36ff8] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:38:51.204 PM]: Connection[id: e8cfdd30-8054-4083-867f-f888b0d36ff8] - connection object created successfully."}
+{"level":"INFO","message":"[9:38:51.204 PM]: Connection[id: e8cfdd30-8054-4083-867f-f888b0d36ff8] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:38:51.206 PM]: Connection[id: e8cfdd30-8054-4083-867f-f888b0d36ff8] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:38:51.206 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:38:51.209 PM]: No client config detected."}
+{"level":"INFO","message":"[9:38:51.209 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:38:51.210 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:38:51.211 PM]: Connection[id: e8cfdd30-8054-4083-867f-f888b0d36ff8] - connected successfully after 6.613499999999988 milliseconds"}
+{"level":"INFO","message":"[9:39:05.425 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:39:05.431 PM]: Creating Connection[id: 39872219-ba69-47aa-888f-81fc8646c5a8] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:39:05.432 PM]: Connection[id: 39872219-ba69-47aa-888f-81fc8646c5a8] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:39:05.432 PM]: Connection[id: 39872219-ba69-47aa-888f-81fc8646c5a8] - connection object created successfully."}
+{"level":"INFO","message":"[9:39:05.432 PM]: Connection[id: 39872219-ba69-47aa-888f-81fc8646c5a8] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:39:05.434 PM]: Connection[id: 39872219-ba69-47aa-888f-81fc8646c5a8] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:39:05.434 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:39:05.437 PM]: No client config detected."}
+{"level":"INFO","message":"[9:39:05.437 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:39:05.437 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:39:05.439 PM]: Connection[id: 39872219-ba69-47aa-888f-81fc8646c5a8] - connected successfully after 6.990292000000011 milliseconds"}
+{"level":"INFO","message":"[9:50:31.251 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:50:31.259 PM]: Creating Connection[id: d357f996-4697-43ac-a035-59c76a604ac1] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:50:31.259 PM]: Connection[id: d357f996-4697-43ac-a035-59c76a604ac1] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:50:31.259 PM]: Connection[id: d357f996-4697-43ac-a035-59c76a604ac1] - connection object created successfully."}
+{"level":"INFO","message":"[9:50:31.260 PM]: Connection[id: d357f996-4697-43ac-a035-59c76a604ac1] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:50:31.262 PM]: Connection[id: d357f996-4697-43ac-a035-59c76a604ac1] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:50:31.262 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:50:31.265 PM]: No client config detected."}
+{"level":"INFO","message":"[9:50:31.265 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:50:31.265 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:50:31.266 PM]: Connection[id: d357f996-4697-43ac-a035-59c76a604ac1] - connected successfully after 6.799166000000014 milliseconds"}
+{"level":"INFO","message":"[9:50:46.546 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:50:46.553 PM]: Creating Connection[id: 98fd8cce-df51-4f8d-b5a9-9078a5c7efcb] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:50:46.553 PM]: Connection[id: 98fd8cce-df51-4f8d-b5a9-9078a5c7efcb] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:50:46.553 PM]: Connection[id: 98fd8cce-df51-4f8d-b5a9-9078a5c7efcb] - connection object created successfully."}
+{"level":"INFO","message":"[9:50:46.553 PM]: Connection[id: 98fd8cce-df51-4f8d-b5a9-9078a5c7efcb] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:50:46.555 PM]: Connection[id: 98fd8cce-df51-4f8d-b5a9-9078a5c7efcb] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:50:46.555 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:50:46.558 PM]: No client config detected."}
+{"level":"INFO","message":"[9:50:46.558 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:50:46.559 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:50:46.560 PM]: Connection[id: 98fd8cce-df51-4f8d-b5a9-9078a5c7efcb] - connected successfully after 6.750665999999967 milliseconds"}
+{"level":"INFO","message":"[9:51:00.939 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:51:00.945 PM]: Creating Connection[id: bbfafc8f-0a40-487d-9362-b7ea874138b7] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:51:00.946 PM]: Connection[id: bbfafc8f-0a40-487d-9362-b7ea874138b7] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:51:00.946 PM]: Connection[id: bbfafc8f-0a40-487d-9362-b7ea874138b7] - connection object created successfully."}
+{"level":"INFO","message":"[9:51:00.946 PM]: Connection[id: bbfafc8f-0a40-487d-9362-b7ea874138b7] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:51:00.948 PM]: Connection[id: bbfafc8f-0a40-487d-9362-b7ea874138b7] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:51:00.948 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:51:00.951 PM]: No client config detected."}
+{"level":"INFO","message":"[9:51:00.951 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:51:00.952 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:51:00.953 PM]: Connection[id: bbfafc8f-0a40-487d-9362-b7ea874138b7] - connected successfully after 6.7830000000000155 milliseconds"}
+{"level":"INFO","message":"[9:54:21.330 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:54:21.337 PM]: Creating Connection[id: 2dbbbfe8-1b1c-41ad-a417-82b70395c989] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:54:21.337 PM]: Connection[id: 2dbbbfe8-1b1c-41ad-a417-82b70395c989] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:54:21.337 PM]: Connection[id: 2dbbbfe8-1b1c-41ad-a417-82b70395c989] - connection object created successfully."}
+{"level":"INFO","message":"[9:54:21.337 PM]: Connection[id: 2dbbbfe8-1b1c-41ad-a417-82b70395c989] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:54:21.339 PM]: Connection[id: 2dbbbfe8-1b1c-41ad-a417-82b70395c989] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:54:21.339 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:54:21.341 PM]: No client config detected."}
+{"level":"INFO","message":"[9:54:21.342 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:54:21.342 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:54:21.343 PM]: Connection[id: 2dbbbfe8-1b1c-41ad-a417-82b70395c989] - connected successfully after 6.0734580000000165 milliseconds"}
+{"level":"INFO","message":"[9:56:30.363 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:56:30.369 PM]: Creating Connection[id: 0c4a427e-a3c7-4049-ab46-44d68624c7a7] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:56:30.369 PM]: Connection[id: 0c4a427e-a3c7-4049-ab46-44d68624c7a7] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:56:30.369 PM]: Connection[id: 0c4a427e-a3c7-4049-ab46-44d68624c7a7] - connection object created successfully."}
+{"level":"INFO","message":"[9:56:30.370 PM]: Connection[id: 0c4a427e-a3c7-4049-ab46-44d68624c7a7] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:56:30.371 PM]: Connection[id: 0c4a427e-a3c7-4049-ab46-44d68624c7a7] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:56:30.371 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:56:30.374 PM]: No client config detected."}
+{"level":"INFO","message":"[9:56:30.375 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:56:30.375 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:56:30.376 PM]: Connection[id: 0c4a427e-a3c7-4049-ab46-44d68624c7a7] - connected successfully after 6.61016699999999 milliseconds"}
+{"level":"INFO","message":"[9:57:06.280 PM]: Creating new connection object"}
+{"level":"INFO","message":"[9:57:06.287 PM]: Creating Connection[id: 68dc182e-e7dc-471a-99da-1da5c1fcaa66] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[9:57:06.287 PM]: Connection[id: 68dc182e-e7dc-471a-99da-1da5c1fcaa66] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[9:57:06.287 PM]: Connection[id: 68dc182e-e7dc-471a-99da-1da5c1fcaa66] - connection object created successfully."}
+{"level":"INFO","message":"[9:57:06.288 PM]: Connection[id: 68dc182e-e7dc-471a-99da-1da5c1fcaa66] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[9:57:06.289 PM]: Connection[id: 68dc182e-e7dc-471a-99da-1da5c1fcaa66] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[9:57:06.290 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[9:57:06.293 PM]: No client config detected."}
+{"level":"INFO","message":"[9:57:06.294 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[9:57:06.294 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[9:57:06.295 PM]: Connection[id: 68dc182e-e7dc-471a-99da-1da5c1fcaa66] - connected successfully after 7.846708000000035 milliseconds"}
+{"level":"INFO","message":"[10:01:52.753 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:01:52.760 PM]: Creating Connection[id: a9024eba-6ace-4fa2-8807-603efa8e9a6f] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:01:52.761 PM]: Connection[id: a9024eba-6ace-4fa2-8807-603efa8e9a6f] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:01:52.761 PM]: Connection[id: a9024eba-6ace-4fa2-8807-603efa8e9a6f] - connection object created successfully."}
+{"level":"INFO","message":"[10:01:52.761 PM]: Connection[id: a9024eba-6ace-4fa2-8807-603efa8e9a6f] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:01:52.763 PM]: Connection[id: a9024eba-6ace-4fa2-8807-603efa8e9a6f] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:01:52.763 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:01:52.767 PM]: No client config detected."}
+{"level":"INFO","message":"[10:01:52.767 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:01:52.767 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:01:52.769 PM]: Connection[id: a9024eba-6ace-4fa2-8807-603efa8e9a6f] - connected successfully after 7.387917000000016 milliseconds"}
+{"level":"INFO","message":"[10:02:33.324 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:02:33.335 PM]: Creating Connection[id: 6c116cb3-0563-41de-9bb7-960fd3fa4175] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:02:33.335 PM]: Connection[id: 6c116cb3-0563-41de-9bb7-960fd3fa4175] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:02:33.335 PM]: Connection[id: 6c116cb3-0563-41de-9bb7-960fd3fa4175] - connection object created successfully."}
+{"level":"INFO","message":"[10:02:33.336 PM]: Connection[id: 6c116cb3-0563-41de-9bb7-960fd3fa4175] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:02:33.342 PM]: Connection[id: 6c116cb3-0563-41de-9bb7-960fd3fa4175] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:02:33.343 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:02:33.349 PM]: No client config detected."}
+{"level":"INFO","message":"[10:02:33.349 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:02:33.350 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:02:33.352 PM]: Connection[id: 6c116cb3-0563-41de-9bb7-960fd3fa4175] - connected successfully after 15.856708999999967 milliseconds"}
+{"level":"INFO","message":"[10:02:39.310 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:02:39.316 PM]: Creating Connection[id: 305513ac-fc73-436b-b6fb-88d4cc55b69f] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:02:39.316 PM]: Connection[id: 305513ac-fc73-436b-b6fb-88d4cc55b69f] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:02:39.316 PM]: Connection[id: 305513ac-fc73-436b-b6fb-88d4cc55b69f] - connection object created successfully."}
+{"level":"INFO","message":"[10:02:39.317 PM]: Connection[id: 305513ac-fc73-436b-b6fb-88d4cc55b69f] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:02:39.318 PM]: Connection[id: 305513ac-fc73-436b-b6fb-88d4cc55b69f] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:02:39.318 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:02:39.321 PM]: No client config detected."}
+{"level":"INFO","message":"[10:02:39.322 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:02:39.322 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:02:39.323 PM]: Connection[id: 305513ac-fc73-436b-b6fb-88d4cc55b69f] - connected successfully after 6.417167000000006 milliseconds"}
+{"level":"INFO","message":"[10:03:31.752 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:03:31.761 PM]: Creating Connection[id: 9d1b83c1-9839-47cb-93a6-62c5edeadff6] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:03:31.761 PM]: Connection[id: 9d1b83c1-9839-47cb-93a6-62c5edeadff6] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:03:31.761 PM]: Connection[id: 9d1b83c1-9839-47cb-93a6-62c5edeadff6] - connection object created successfully."}
+{"level":"INFO","message":"[10:03:31.761 PM]: Connection[id: 9d1b83c1-9839-47cb-93a6-62c5edeadff6] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:03:31.764 PM]: Connection[id: 9d1b83c1-9839-47cb-93a6-62c5edeadff6] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:03:31.764 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:03:31.768 PM]: No client config detected."}
+{"level":"INFO","message":"[10:03:31.768 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:03:31.768 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:03:31.770 PM]: Connection[id: 9d1b83c1-9839-47cb-93a6-62c5edeadff6] - connected successfully after 8.875208000000043 milliseconds"}
+{"level":"INFO","message":"[10:04:00.955 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:04:00.965 PM]: Creating Connection[id: 6a5ac402-2ac7-45a4-a37b-bac66d170db0] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:04:00.965 PM]: Connection[id: 6a5ac402-2ac7-45a4-a37b-bac66d170db0] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:04:00.965 PM]: Connection[id: 6a5ac402-2ac7-45a4-a37b-bac66d170db0] - connection object created successfully."}
+{"level":"INFO","message":"[10:04:00.965 PM]: Connection[id: 6a5ac402-2ac7-45a4-a37b-bac66d170db0] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:04:00.969 PM]: Connection[id: 6a5ac402-2ac7-45a4-a37b-bac66d170db0] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:04:00.969 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:04:00.974 PM]: No client config detected."}
+{"level":"INFO","message":"[10:04:00.974 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:04:00.975 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:04:00.976 PM]: Connection[id: 6a5ac402-2ac7-45a4-a37b-bac66d170db0] - connected successfully after 11.047374999999988 milliseconds"}
+{"level":"INFO","message":"[10:04:30.220 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:04:30.229 PM]: Creating Connection[id: f2bab9b3-dfc6-49ba-87ea-203e99ce7324] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:04:30.230 PM]: Connection[id: f2bab9b3-dfc6-49ba-87ea-203e99ce7324] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:04:30.230 PM]: Connection[id: f2bab9b3-dfc6-49ba-87ea-203e99ce7324] - connection object created successfully."}
+{"level":"INFO","message":"[10:04:30.230 PM]: Connection[id: f2bab9b3-dfc6-49ba-87ea-203e99ce7324] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:04:30.235 PM]: Connection[id: f2bab9b3-dfc6-49ba-87ea-203e99ce7324] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:04:30.236 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:04:30.243 PM]: No client config detected."}
+{"level":"INFO","message":"[10:04:30.244 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:04:30.244 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:04:30.247 PM]: Connection[id: f2bab9b3-dfc6-49ba-87ea-203e99ce7324] - connected successfully after 16.336125000000038 milliseconds"}
+{"level":"INFO","message":"[10:16:28.368 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:16:28.375 PM]: Creating Connection[id: 1b719b56-0674-4ba2-8d1b-92a09d303560] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:16:28.375 PM]: Connection[id: 1b719b56-0674-4ba2-8d1b-92a09d303560] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:16:28.375 PM]: Connection[id: 1b719b56-0674-4ba2-8d1b-92a09d303560] - connection object created successfully."}
+{"level":"INFO","message":"[10:16:28.376 PM]: Connection[id: 1b719b56-0674-4ba2-8d1b-92a09d303560] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:16:28.377 PM]: Connection[id: 1b719b56-0674-4ba2-8d1b-92a09d303560] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:16:28.377 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:16:28.380 PM]: No client config detected."}
+{"level":"INFO","message":"[10:16:28.381 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:16:28.381 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:16:28.382 PM]: Connection[id: 1b719b56-0674-4ba2-8d1b-92a09d303560] - connected successfully after 6.643875000000037 milliseconds"}
+{"level":"INFO","message":"[10:19:02.449 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:19:02.455 PM]: Creating Connection[id: 8e2cf9c4-335f-4596-8450-ac786683b4a2] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:19:02.455 PM]: Connection[id: 8e2cf9c4-335f-4596-8450-ac786683b4a2] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:19:02.455 PM]: Connection[id: 8e2cf9c4-335f-4596-8450-ac786683b4a2] - connection object created successfully."}
+{"level":"INFO","message":"[10:19:02.456 PM]: Connection[id: 8e2cf9c4-335f-4596-8450-ac786683b4a2] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:19:02.457 PM]: Connection[id: 8e2cf9c4-335f-4596-8450-ac786683b4a2] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:19:02.457 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:19:02.460 PM]: No client config detected."}
+{"level":"INFO","message":"[10:19:02.460 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:19:02.461 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:19:02.462 PM]: Connection[id: 8e2cf9c4-335f-4596-8450-ac786683b4a2] - connected successfully after 6.155916999999988 milliseconds"}
+{"level":"INFO","message":"[10:19:59.145 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:19:59.152 PM]: Creating Connection[id: 8a445815-2d19-4c7c-b202-11e0f73f526b] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:19:59.152 PM]: Connection[id: 8a445815-2d19-4c7c-b202-11e0f73f526b] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:19:59.152 PM]: Connection[id: 8a445815-2d19-4c7c-b202-11e0f73f526b] - connection object created successfully."}
+{"level":"INFO","message":"[10:19:59.152 PM]: Connection[id: 8a445815-2d19-4c7c-b202-11e0f73f526b] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:19:59.154 PM]: Connection[id: 8a445815-2d19-4c7c-b202-11e0f73f526b] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:19:59.154 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:19:59.157 PM]: No client config detected."}
+{"level":"INFO","message":"[10:19:59.158 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:19:59.158 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:19:59.159 PM]: Connection[id: 8a445815-2d19-4c7c-b202-11e0f73f526b] - connected successfully after 6.916707999999971 milliseconds"}
+{"level":"INFO","message":"[10:20:38.435 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:20:38.441 PM]: Creating Connection[id: b87c85b1-ad8a-4824-9988-9675e3f783c8] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:20:38.442 PM]: Connection[id: b87c85b1-ad8a-4824-9988-9675e3f783c8] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:20:38.442 PM]: Connection[id: b87c85b1-ad8a-4824-9988-9675e3f783c8] - connection object created successfully."}
+{"level":"INFO","message":"[10:20:38.442 PM]: Connection[id: b87c85b1-ad8a-4824-9988-9675e3f783c8] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:20:38.443 PM]: Connection[id: b87c85b1-ad8a-4824-9988-9675e3f783c8] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:20:38.444 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:20:38.447 PM]: No client config detected."}
+{"level":"INFO","message":"[10:20:38.447 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:20:38.447 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:20:38.448 PM]: Connection[id: b87c85b1-ad8a-4824-9988-9675e3f783c8] - connected successfully after 6.544208000000026 milliseconds"}
+{"level":"INFO","message":"[10:21:50.109 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:21:50.115 PM]: Creating Connection[id: 622f544c-fd5f-4289-9874-5d93e97be412] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:21:50.116 PM]: Connection[id: 622f544c-fd5f-4289-9874-5d93e97be412] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:21:50.116 PM]: Connection[id: 622f544c-fd5f-4289-9874-5d93e97be412] - connection object created successfully."}
+{"level":"INFO","message":"[10:21:50.116 PM]: Connection[id: 622f544c-fd5f-4289-9874-5d93e97be412] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:21:50.118 PM]: Connection[id: 622f544c-fd5f-4289-9874-5d93e97be412] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:21:50.118 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:21:50.123 PM]: No client config detected."}
+{"level":"INFO","message":"[10:21:50.123 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:21:50.123 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:21:50.125 PM]: Connection[id: 622f544c-fd5f-4289-9874-5d93e97be412] - connected successfully after 8.621875000000045 milliseconds"}
+{"level":"INFO","message":"[10:22:12.527 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:22:12.533 PM]: Creating Connection[id: 28e94ba8-9911-4cd9-b378-fe81ad20ea95] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:22:12.533 PM]: Connection[id: 28e94ba8-9911-4cd9-b378-fe81ad20ea95] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:22:12.533 PM]: Connection[id: 28e94ba8-9911-4cd9-b378-fe81ad20ea95] - connection object created successfully."}
+{"level":"INFO","message":"[10:22:12.534 PM]: Connection[id: 28e94ba8-9911-4cd9-b378-fe81ad20ea95] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:22:12.535 PM]: Connection[id: 28e94ba8-9911-4cd9-b378-fe81ad20ea95] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:22:12.535 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:22:12.538 PM]: No client config detected."}
+{"level":"INFO","message":"[10:22:12.538 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:22:12.539 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:22:12.540 PM]: Connection[id: 28e94ba8-9911-4cd9-b378-fe81ad20ea95] - connected successfully after 6.19358299999999 milliseconds"}
+{"level":"INFO","message":"[10:22:27.504 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:22:27.510 PM]: Creating Connection[id: 5c8a9260-c81a-4de0-b68f-d8203d07f350] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:22:27.510 PM]: Connection[id: 5c8a9260-c81a-4de0-b68f-d8203d07f350] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:22:27.511 PM]: Connection[id: 5c8a9260-c81a-4de0-b68f-d8203d07f350] - connection object created successfully."}
+{"level":"INFO","message":"[10:22:27.511 PM]: Connection[id: 5c8a9260-c81a-4de0-b68f-d8203d07f350] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:22:27.512 PM]: Connection[id: 5c8a9260-c81a-4de0-b68f-d8203d07f350] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:22:27.512 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:22:27.515 PM]: No client config detected."}
+{"level":"INFO","message":"[10:22:27.515 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:22:27.516 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:22:27.517 PM]: Connection[id: 5c8a9260-c81a-4de0-b68f-d8203d07f350] - connected successfully after 6.150083999999993 milliseconds"}
+{"level":"INFO","message":"[10:23:10.254 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:23:10.260 PM]: Creating Connection[id: 0753491c-db2b-4aa2-854b-26b67b438479] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:23:10.261 PM]: Connection[id: 0753491c-db2b-4aa2-854b-26b67b438479] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:23:10.261 PM]: Connection[id: 0753491c-db2b-4aa2-854b-26b67b438479] - connection object created successfully."}
+{"level":"INFO","message":"[10:23:10.261 PM]: Connection[id: 0753491c-db2b-4aa2-854b-26b67b438479] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:23:10.262 PM]: Connection[id: 0753491c-db2b-4aa2-854b-26b67b438479] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:23:10.263 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:23:10.265 PM]: No client config detected."}
+{"level":"INFO","message":"[10:23:10.265 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:23:10.266 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:23:10.267 PM]: Connection[id: 0753491c-db2b-4aa2-854b-26b67b438479] - connected successfully after 6.214916999999957 milliseconds"}
+{"level":"INFO","message":"[10:24:11.729 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:24:11.736 PM]: Creating Connection[id: 3efb9e15-4153-4357-bcc0-f2538ee31238] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:24:11.736 PM]: Connection[id: 3efb9e15-4153-4357-bcc0-f2538ee31238] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:24:11.737 PM]: Connection[id: 3efb9e15-4153-4357-bcc0-f2538ee31238] - connection object created successfully."}
+{"level":"INFO","message":"[10:24:11.737 PM]: Connection[id: 3efb9e15-4153-4357-bcc0-f2538ee31238] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:24:11.739 PM]: Connection[id: 3efb9e15-4153-4357-bcc0-f2538ee31238] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:24:11.739 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:24:11.743 PM]: No client config detected."}
+{"level":"INFO","message":"[10:24:11.743 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:24:11.744 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:24:11.746 PM]: Connection[id: 3efb9e15-4153-4357-bcc0-f2538ee31238] - connected successfully after 8.65929200000005 milliseconds"}
+{"level":"INFO","message":"[10:25:06.906 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:25:06.913 PM]: Creating Connection[id: bccbfb53-ab0e-4291-8ad5-e81b22d8d755] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:25:06.913 PM]: Connection[id: bccbfb53-ab0e-4291-8ad5-e81b22d8d755] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:25:06.913 PM]: Connection[id: bccbfb53-ab0e-4291-8ad5-e81b22d8d755] - connection object created successfully."}
+{"level":"INFO","message":"[10:25:06.913 PM]: Connection[id: bccbfb53-ab0e-4291-8ad5-e81b22d8d755] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:25:06.915 PM]: Connection[id: bccbfb53-ab0e-4291-8ad5-e81b22d8d755] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:25:06.915 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:25:06.918 PM]: No client config detected."}
+{"level":"INFO","message":"[10:25:06.918 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:25:06.918 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:25:06.920 PM]: Connection[id: bccbfb53-ab0e-4291-8ad5-e81b22d8d755] - connected successfully after 6.432583000000022 milliseconds"}
+{"level":"INFO","message":"[10:25:34.096 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:25:34.102 PM]: Creating Connection[id: 6ee85b28-f57b-4689-94d5-124cc1186b29] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh_xs, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:25:34.102 PM]: Connection[id: 6ee85b28-f57b-4689-94d5-124cc1186b29] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:25:34.102 PM]: Connection[id: 6ee85b28-f57b-4689-94d5-124cc1186b29] - connection object created successfully."}
+{"level":"INFO","message":"[10:25:34.102 PM]: Connection[id: 6ee85b28-f57b-4689-94d5-124cc1186b29] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:25:34.104 PM]: Connection[id: 6ee85b28-f57b-4689-94d5-124cc1186b29] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:25:34.104 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:25:34.107 PM]: No client config detected."}
+{"level":"INFO","message":"[10:25:34.107 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:25:34.107 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:25:34.109 PM]: Connection[id: 6ee85b28-f57b-4689-94d5-124cc1186b29] - connected successfully after 6.1181250000000205 milliseconds"}
+{"level":"INFO","message":"[10:28:02.479 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:28:02.485 PM]: Creating Connection[id: da4b8be8-8b08-4c0a-9fd1-7b760119a95f] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh_xs, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:28:02.485 PM]: Connection[id: da4b8be8-8b08-4c0a-9fd1-7b760119a95f] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:28:02.485 PM]: Connection[id: da4b8be8-8b08-4c0a-9fd1-7b760119a95f] - connection object created successfully."}
+{"level":"INFO","message":"[10:28:02.485 PM]: Connection[id: da4b8be8-8b08-4c0a-9fd1-7b760119a95f] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:28:02.487 PM]: Connection[id: da4b8be8-8b08-4c0a-9fd1-7b760119a95f] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:28:02.487 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:28:02.490 PM]: No client config detected."}
+{"level":"INFO","message":"[10:28:02.490 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:28:02.491 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:28:02.492 PM]: Connection[id: da4b8be8-8b08-4c0a-9fd1-7b760119a95f] - connected successfully after 6.4061249999999745 milliseconds"}
+{"level":"INFO","message":"[10:30:37.886 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:30:37.892 PM]: Creating Connection[id: 15efd250-ac07-4f86-b5fc-70a9a8f5aac4] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh_xs, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:30:37.892 PM]: Connection[id: 15efd250-ac07-4f86-b5fc-70a9a8f5aac4] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:30:37.892 PM]: Connection[id: 15efd250-ac07-4f86-b5fc-70a9a8f5aac4] - connection object created successfully."}
+{"level":"INFO","message":"[10:30:37.892 PM]: Connection[id: 15efd250-ac07-4f86-b5fc-70a9a8f5aac4] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:30:37.895 PM]: Connection[id: 15efd250-ac07-4f86-b5fc-70a9a8f5aac4] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:30:37.895 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:30:37.898 PM]: No client config detected."}
+{"level":"INFO","message":"[10:30:37.898 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:30:37.899 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:30:37.900 PM]: Connection[id: 15efd250-ac07-4f86-b5fc-70a9a8f5aac4] - connected successfully after 7.678250000000048 milliseconds"}
+{"level":"INFO","message":"[10:45:09.107 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:45:09.113 PM]: Creating Connection[id: 3581e488-6ef0-4d14-820f-4d47c0a28fac] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh_xs, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:45:09.113 PM]: Connection[id: 3581e488-6ef0-4d14-820f-4d47c0a28fac] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:45:09.113 PM]: Connection[id: 3581e488-6ef0-4d14-820f-4d47c0a28fac] - connection object created successfully."}
+{"level":"INFO","message":"[10:45:09.113 PM]: Connection[id: 3581e488-6ef0-4d14-820f-4d47c0a28fac] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:45:09.115 PM]: Connection[id: 3581e488-6ef0-4d14-820f-4d47c0a28fac] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:45:09.116 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:45:09.118 PM]: No client config detected."}
+{"level":"INFO","message":"[10:45:09.118 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:45:09.119 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:45:09.120 PM]: Connection[id: 3581e488-6ef0-4d14-820f-4d47c0a28fac] - connected successfully after 6.533584000000019 milliseconds"}
+{"level":"INFO","message":"[10:45:32.637 PM]: Creating new connection object"}
+{"level":"INFO","message":"[10:45:32.644 PM]: Creating Connection[id: b026549f-7b83-4f10-a1bc-79d63da3995f] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh_xs, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[10:45:32.644 PM]: Connection[id: b026549f-7b83-4f10-a1bc-79d63da3995f] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[10:45:32.644 PM]: Connection[id: b026549f-7b83-4f10-a1bc-79d63da3995f] - connection object created successfully."}
+{"level":"INFO","message":"[10:45:32.645 PM]: Connection[id: b026549f-7b83-4f10-a1bc-79d63da3995f] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[10:45:32.647 PM]: Connection[id: b026549f-7b83-4f10-a1bc-79d63da3995f] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[10:45:32.647 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[10:45:32.650 PM]: No client config detected."}
+{"level":"INFO","message":"[10:45:32.651 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[10:45:32.651 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[10:45:32.652 PM]: Connection[id: b026549f-7b83-4f10-a1bc-79d63da3995f] - connected successfully after 7.557834000000014 milliseconds"}
+{"level":"INFO","message":"[11:08:25.964 PM]: Creating new connection object"}
+{"level":"INFO","message":"[11:08:25.970 PM]: Creating Connection[id: 3239ad80-0b6a-4ae8-a248-b912f48348cc] with host: technipfmc-data.snowflakecomputing.com, account: technipfmc-data, accessUrl: https://technipfmc-data.snowflakecomputing.com, user: NEMO_DEV, password is provided, role: APP_NEMO_DEV, database: idsdev, schema: app_nemo, warehouse: compute_wh_xs, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: darwin, os version: 23.6.0"}
+{"level":"INFO","message":"[11:08:25.970 PM]: Connection[id: 3239ad80-0b6a-4ae8-a248-b912f48348cc] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 1.15.0, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+{"level":"INFO","message":"[11:08:25.970 PM]: Connection[id: 3239ad80-0b6a-4ae8-a248-b912f48348cc] - connection object created successfully."}
+{"level":"INFO","message":"[11:08:25.971 PM]: Connection[id: 3239ad80-0b6a-4ae8-a248-b912f48348cc] - connecting. Associated Snowflake domain: GLOBAL"}
+{"level":"INFO","message":"[11:08:25.973 PM]: Connection[id: 3239ad80-0b6a-4ae8-a248-b912f48348cc] - authentication successful using: SNOWFLAKE"}
+{"level":"INFO","message":"[11:08:25.974 PM]: Trying to initialize Easy Logging"}
+{"level":"INFO","message":"[11:08:25.976 PM]: No client config detected."}
+{"level":"INFO","message":"[11:08:25.976 PM]: No config file path found. Client config will not be used."}
+{"level":"INFO","message":"[11:08:25.976 PM]: Easy Logging is disabled as no config has been found"}
+{"level":"INFO","message":"[11:08:25.978 PM]: Connection[id: 3239ad80-0b6a-4ae8-a248-b912f48348cc] - connected successfully after 7.2994580000000155 milliseconds"}
