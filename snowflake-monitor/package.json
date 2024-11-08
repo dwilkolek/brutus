@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node --env-file=.env index.js",
+    "dev": "node --env-file=../.env index.js",
     "build-image": "docker build --tag snowflake-monitor ."
   },
   "author": "",

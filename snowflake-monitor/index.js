@@ -1,5 +1,4 @@
 import snowflake from "snowflake-sdk";
-console.log(process.env);
 var connection = snowflake.createConnection({
   account: process.env.account,
   username: process.env.username,
