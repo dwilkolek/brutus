@@ -4,7 +4,8 @@ Name has become a synonym and byword for "betrayal" or "traitor" in most languag
 
 ### Dashboards
 
-- [Seals dashboard](https://brutus.seals.wilkolek.eu/status/seals)
+- [Seals](https://brutus.seals.wilkolek.eu/status/seals)
+- [Wombat](https://brutus.seals.wilkolek.eu/status/wombat)
 
 ### Running
 
