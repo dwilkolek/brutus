@@ -3,6 +3,8 @@ version: "3.3"
 services:
   snowflake-monitor:
     image: snowflake-monitor
+    build:
+      context: snowflake-monitor
     restart: always
     healthcheck:
       disable: true
