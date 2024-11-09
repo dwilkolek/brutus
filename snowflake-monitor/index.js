@@ -33,8 +33,6 @@ connection.connect(function (err, conn) {
           "Failed to execute statement due to the following error: " +
             err.message,
         );
-      } else {
-        console.log("Successfully executed statement: " + stmt.getSqlText());
       }
     },
   });
@@ -65,7 +63,7 @@ const checkMap = {
   opentext: ["opentext_documents", "opentext_projects", "opentext_revisions"],
   primavera: ["primavera_project", "primavera_task"],
 };
-console.log(Object.keys(checkMap));
+
 app.get("/check/:key", async (req, res) => {
   const key = req.params.key;
   if (!checkMap[key]) {
@@ -83,13 +81,11 @@ app.get("/check/:key", async (req, res) => {
 });
 
 async function validateKey(key) {
-  console.log("Validating ", key);
   const tables = checkMap[key];
   const outcomes = await Promise.allSettled(
     tables.map((table) => validate(key, table)),
   );
   const validationResults = outcomes.map((outcome) => outcome.value);
-  console.log("Validation done ", validationResults);
   await Promise.allSettled(validationResults.map(store));
   return validationResults;
 }
