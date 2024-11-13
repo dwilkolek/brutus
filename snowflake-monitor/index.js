@@ -116,7 +116,7 @@ function validate(key, table) {
       queryTime: -1,
       lastSuccesfulCount: -1,
       expectedCount: -1,
-      reason: null
+      reason: null,
     };
     c.execute({
       sqlText: `SELECT count(*) result,
@@ -136,18 +136,19 @@ function validate(key, table) {
               err.message,
             stmt.sqlText,
           );
-          validationResult.reason = `SQL_ERROR: ${stmt.sqlText}`
+          validationResult.reason = `SQL_ERROR: ${stmt.sqlText}`;
           reject(validationResult);
         } else {
           validationResult.count = rows[0]["RESULT"];
           validationResult.lastSuccesfulCount = rows[0]["PREV"];
-          validationResult.expectedCount =
-            validationResult.lastSuccesfulCount * 0.9;
+          validationResult.expectedCount = Math.floor(
+            validationResult.lastSuccesfulCount * 0.9,
+          );
           validationResult.isValid =
             validationResult.count >= validationResult.expectedCount;
           // console.log(`${key}::${table}`, { validationResult });
           if (!validationResult.isValid) {
-            validationResult.reason = `COUNT_BELOW_EXPECTED: Last=${validationResult.lastSuccesfulCount}, Expected=${validationResult.expectedCount}`
+            validationResult.reason = `COUNT_BELOW_EXPECTED: Last=${validationResult.lastSuccesfulCount}, Expected=${validationResult.expectedCount}`;
           }
           resolve(validationResult);
         }
@@ -165,7 +166,7 @@ function store(validationResult) {
     queryTime,
     lastSuccesfulCount,
     expectedCount,
-    reason
+    reason,
   } = validationResult;
   return new Promise((resolve, reject) => {
     console.log(
@@ -173,13 +174,13 @@ function store(validationResult) {
       validationResult,
       `
     INSERT INTO snowflake_monitor(id,table_name,record_count,is_valid,reason)
-    VALUES ('${key}','${table}',${count}, ${isValid}, ${reason ? `'${reason}'` : null })
+    VALUES ('${key}','${table}',${count}, ${isValid}, ${reason ? `'${reason}'` : null})
     `,
     );
     c.execute({
       sqlText: `
       INSERT INTO snowflake_monitor(id,table_name,record_count,is_valid,reason)
-      VALUES ('${key}','${table}',${count}, ${isValid}, ${reason ? `'${reason}'` : null })
+      VALUES ('${key}','${table}',${count}, ${isValid}, ${reason ? `'${reason}'` : null})
       `,
       complete: function (err, stmt, rows) {
         if (err) {
