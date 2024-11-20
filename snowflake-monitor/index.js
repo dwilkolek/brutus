@@ -1,33 +1,33 @@
 import snowflake from "snowflake-sdk";
 
-console.log(process.env)
+console.log(process.env);
 
 function getPrefixedEnvParam(varName, defaultValue) {
-  const envVariable = process.env[varName]
-  
+  const envVariable = process.env[varName];
+
   if (envVariable) {
-    return envVariable
+    return envVariable;
   }
 
   if (defaultValue) {
-    return defaultValue
+    return defaultValue;
   }
-   
+
   throw `Missing env parameter '${envVariable}'`;
 }
 const snowflakeConfig = {
-  account: getPrefixedEnvParam('account'),
-  username: getPrefixedEnvParam('username'),
-  password: getPrefixedEnvParam('password'),
-  warehouse: getPrefixedEnvParam('warehouse'),
-  role: getPrefixedEnvParam('role'),
-  schema: getPrefixedEnvParam('schema'),
-  database: getPrefixedEnvParam('database'),
-}
+  account: getPrefixedEnvParam("account"),
+  username: getPrefixedEnvParam("username"),
+  password: getPrefixedEnvParam("password"),
+  warehouse: getPrefixedEnvParam("warehouse"),
+  role: getPrefixedEnvParam("role"),
+  schema: getPrefixedEnvParam("schema"),
+  database: getPrefixedEnvParam("database"),
+};
 // console.log('snowflakeConfig', snowflakeConfig)
 var connection = snowflake.createConnection(snowflakeConfig);
 let c;
-connection.connect(function (err, conn) {
+connection.connect(async function (err, conn) {
   if (err) {
     console.error("Unable to connect: " + err.message);
     throw "Unable to connect: " + err.message;
@@ -35,8 +35,28 @@ connection.connect(function (err, conn) {
     console.log("Successfully connected to Snowflake.");
     c = conn;
   }
-  
-  executeStatement(
+  function executeStatement(sql) {
+    return new Promise((resolve, reject) => {
+      conn.execute({
+        sqlText: sql,
+        complete: function (err, stmt, rows) {
+          if (err) {
+            console.error(
+              "Failed to execute statement due to the following error: " +
+                err.message
+            );
+            reject(
+              "Failed to execute statement due to the following error: " +
+                err.message
+            );
+          } else {
+            resolve();
+          }
+        },
+      });
+    });
+  }
+  await executeStatement(
     `
       CREATE TABLE IF NOT EXISTS snowflake_monitor(
         id text not null,
@@ -45,40 +65,22 @@ connection.connect(function (err, conn) {
         is_valid boolean,
         stored_at timestamp default CURRENT_TIMESTAMP
       )
-    `,
-    () => {
-      executeStatement(
-        `
-        ALTER TABLE snowflake_monitor
-        ADD COLUMN if not exists reason text;
-        `
-      )
-    }
-  )
-
-  
-  function executeStatement(sql, callback) {
-    conn.execute({
-      sqlText: sql,
-      complete: function (err, stmt, rows) {
-        callback.();
-        if (err) {
-          console.error(
-            "Failed to execute statement due to the following error: " +
-              err.message,
-          );
-        }
-      },
-    });
-  }
-
-  
+    `
+  );
+  await executeStatement(
+    `
+      ALTER TABLE snowflake_monitor
+      ADD COLUMN if not exists reason text;
+    `
+  );
 });
 
 import express from "express";
 const app = express();
-const port = getPrefixedEnvParam('port', 3000)
-console.log(`Starting at port=${port} with params=${JSON.stringify(snowflakeConfig)}`)
+const port = getPrefixedEnvParam("port", 3000);
+console.log(
+  `Starting at port=${port} with params=${JSON.stringify(snowflakeConfig)}`
+);
 const checkMap = {
   "contract-workspace": [
     "cw_key_dates",
@@ -123,7 +125,7 @@ app.get("/check/:key", async (req, res) => {
 async function validateKey(key) {
   const tables = checkMap[key];
   const outcomes = await Promise.allSettled(
-    tables.map((table) => validate(key, table)),
+    tables.map((table) => validate(key, table))
   );
   const validationResults = outcomes.map((outcome) => outcome.value);
   await Promise.allSettled(validationResults.map(store));
@@ -159,7 +161,7 @@ function validate(key, table) {
           console.error(
             "Failed to execute statement due to the following error: " +
               err.message,
-            stmt.sqlText,
+            stmt.sqlText
           );
           validationResult.reason = `SQL_ERROR: ${stmt.sqlText}`;
           reject(validationResult);
@@ -167,7 +169,7 @@ function validate(key, table) {
           validationResult.count = rows[0]["RESULT"];
           validationResult.lastSuccesfulCount = rows[0]["PREV"];
           validationResult.expectedCount = Math.floor(
-            validationResult.lastSuccesfulCount * 0.9,
+            validationResult.lastSuccesfulCount * 0.9
           );
           validationResult.isValid =
             validationResult.count >= validationResult.expectedCount;
@@ -199,20 +201,24 @@ function store(validationResult) {
       validationResult,
       `
     INSERT INTO snowflake_monitor(id,table_name,record_count,is_valid,reason)
-    VALUES ('${key}','${table}',${count}, ${isValid}, ${reason ? `'${reason}'` : null})
-    `,
+    VALUES ('${key}','${table}',${count}, ${isValid}, ${
+        reason ? `'${reason}'` : null
+      })
+    `
     );
     c.execute({
       sqlText: `
       INSERT INTO snowflake_monitor(id,table_name,record_count,is_valid,reason)
-      VALUES ('${key}','${table}',${count}, ${isValid}, ${reason ? `'${reason}'` : null})
+      VALUES ('${key}','${table}',${count}, ${isValid}, ${
+        reason ? `'${reason}'` : null
+      })
       `,
       complete: function (err, stmt, rows) {
         if (err) {
           console.error(
             "Failed to execute statement due to the following error: " +
               err.message,
-            stmt.sqlText,
+            stmt.sqlText
           );
           reject();
         } else {
