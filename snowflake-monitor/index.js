@@ -30,33 +30,49 @@ let c;
 connection.connect(function (err, conn) {
   if (err) {
     console.error("Unable to connect: " + err.message);
+    throw "Unable to connect: " + err.message;
   } else {
     console.log("Successfully connected to Snowflake.");
     c = conn;
   }
-
-  conn.execute({
-    sqlText: `
+  
+  executeStatement(
+    `
       CREATE TABLE IF NOT EXISTS snowflake_monitor(
         id text not null,
         table_name text not null,
         record_count BIGINT,
         is_valid boolean,
         stored_at timestamp default CURRENT_TIMESTAMP
-      );
-      alter table snowflake_monitor
-        add column if not exists reason text;
+      )
     `,
-    complete: function (err, stmt, rows) {
-      c = conn;
-      if (err) {
-        console.error(
-          "Failed to execute statement due to the following error: " +
-            err.message,
-        );
-      }
-    },
-  });
+    () => {
+      executeStatement(
+        `
+        ALTER TABLE snowflake_monitor
+        ADD COLUMN if not exists reason text;
+        `
+      )
+    }
+  )
+
+  
+  function executeStatement(sql, callback) {
+    conn.execute({
+      sqlText: sql,
+      complete: function (err, stmt, rows) {
+        callback.();
+        if (err) {
+          console.error(
+            "Failed to execute statement due to the following error: " +
+              err.message,
+          );
+        }
+      },
+    });
+  }
+
+  
 });
 
 import express from "express";
