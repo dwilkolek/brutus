@@ -26,6 +26,9 @@ const snowflakeConfig = {
 }
 // console.log('snowflakeConfig', snowflakeConfig)
 var connection = snowflake.createConnection(snowflakeConfig);
+function createConnection {
+  
+}
 let c;
 connection.connect(function (err, conn) {
   if (err) {
@@ -43,22 +46,9 @@ connection.connect(function (err, conn) {
         record_count BIGINT,
         is_valid boolean,
         stored_at timestamp default CURRENT_TIMESTAMP
-      )
-    `,
-    complete: function (err, stmt, rows) {
-      if (err) {
-        console.error(
-          "Failed to execute statement due to the following error: " +
-            err.message,
-        );
-      }
-    },
-  });
-
-  conn.execute({
-    sqlText: `
-      alter table app_nemo.snowflake_monitor
-        add column if not exists reason text
+      );
+      alter table snowflake_monitor
+        add column if not exists reason text;
     `,
     complete: function (err, stmt, rows) {
       if (err) {
