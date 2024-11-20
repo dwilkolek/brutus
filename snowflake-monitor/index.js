@@ -26,9 +26,6 @@ const snowflakeConfig = {
 }
 // console.log('snowflakeConfig', snowflakeConfig)
 var connection = snowflake.createConnection(snowflakeConfig);
-function createConnection {
-  
-}
 let c;
 connection.connect(function (err, conn) {
   if (err) {
@@ -51,6 +48,7 @@ connection.connect(function (err, conn) {
         add column if not exists reason text;
     `,
     complete: function (err, stmt, rows) {
+      c = conn;
       if (err) {
         console.error(
           "Failed to execute statement due to the following error: " +
@@ -88,9 +86,12 @@ const checkMap = {
 };
 
 app.get("/check/:key", async (req, res) => {
+  if (!c) {
+    res.status(404).send("Conneciton to snowflake not set");
+  }
   const key = req.params.key;
   if (!checkMap[key]) {
-    res.status(404).send("No such key!");
+    res.status(404).send(`No such key=${key}!`);
     return;
   }
 
