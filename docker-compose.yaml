@@ -1,17 +1,48 @@
 version: "3.3"
 
 services:
-  snowflake-monitor:
+  snowflake-monitor-dev:
     image: snowflake-monitor
     build:
       context: snowflake-monitor
+      dockerfile: snowflake-monitor/DockerFile
     restart: always
     healthcheck:
       disable: true
     volumes:
       - ./data:/app/data
+    environment:
+      - account=${dev_account}
+      - username=${dev_username}
+      - password=${dev_password}
+      - warehouse=${dev_warehouse}
+      - role=${dev_role}
+      - schema=${dev_schema}
+      - database=${dev_database}
+      - port=4000
     ports:
-      - "3000:3000"
+      - "4000:4000"
+  snowflake-monitor-prod:
+    image: snowflake-monitor
+    build:
+      context: snowflake-monitor
+      dockerfile: snowflake-monitor/DockerFile
+    restart: always
+    healthcheck:
+      disable: true
+    volumes:
+      - ./data_prod:/app/data
+    environment:
+      - account=${prod_account}
+      - username=${prod_username}
+      - password=${prod_password}
+      - warehouse=${prod_warehouse}
+      - role=${prod_role}
+      - schema=${prod_schema}
+      - database=${prod_database}
+      - port=4001
+    ports:
+      - "4001:4001"
   uptime-kuma:
     image: elestio/uptime-kuma:2.0.0-beta.0
     restart: always

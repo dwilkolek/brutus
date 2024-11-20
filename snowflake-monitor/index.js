@@ -1,13 +1,32 @@
 import snowflake from "snowflake-sdk";
-var connection = snowflake.createConnection({
-  account: process.env.account,
-  username: process.env.username,
-  password: process.env.password,
-  warehouse: process.env.warehouse,
-  role: process.env.role,
-  schema: process.env.schema,
-  database: process.env.database,
-});
+
+console.log(process.env)
+
+function getPrefixedEnvParam(variable, defaultValue) {
+  const paramName = process.env[variable]
+  const envVariable = process.env[paramName]
+  
+  if (envVariable) {
+    return envVariable
+  }
+
+  if (defaultValue) {
+    return defaultValue
+  }
+   
+  throw `Missing env parameter '${paramName}'`;
+}
+const snowflakeConfig = {
+  account: getPrefixedEnvParam('account'),
+  username: getPrefixedEnvParam('username'),
+  password: getPrefixedEnvParam('password'),
+  warehouse: getPrefixedEnvParam('warehouse'),
+  role: getPrefixedEnvParam('role'),
+  schema: getPrefixedEnvParam('schema'),
+  database: getPrefixedEnvParam('database'),
+}
+// console.log('snowflakeConfig', snowflakeConfig)
+var connection = snowflake.createConnection(snowflakeConfig);
 let c;
 connection.connect(function (err, conn) {
   if (err) {
@@ -55,7 +74,7 @@ connection.connect(function (err, conn) {
 
 import express from "express";
 const app = express();
-const port = process.env.port ?? 3000;
+const port = getPrefixedEnvParam('port', 3000)
 
 const checkMap = {
   "contract-workspace": [
